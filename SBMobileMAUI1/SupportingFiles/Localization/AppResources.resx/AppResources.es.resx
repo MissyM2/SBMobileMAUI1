@@ -1,0 +1,383 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!--
+    Microsoft ResX Schema
+
+    Version 2.0
+
+    The primary goals of this format is to allow a simple XML format
+    that is mostly human readable. The generation and parsing of the
+    various data types are done through the TypeConverter classes
+    associated with the data types.
+
+    Example:
+
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+
+    There are any number of "resheader" rows that contain simple
+    name/value pairs.
+
+    Each data row contains a name, and value. The row also contains a
+    type or mimetype. Type corresponds to a .NET class that support
+    text/value conversion through the TypeConverter architecture.
+    Classes that don't support this are serialized and stored with the
+    mimetype set.
+
+    The mimetype is used for serialized objects, and tells the
+    ResXResourceReader how to depersist the object. This is currently not
+    extensible. For a given mimetype the value must be set accordingly:
+
+    Note - application/x-microsoft.net.object.binary.base64 is the format
+    that the ResXResourceWriter will generate, however the reader can
+    read any of the formats listed below.
+
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"/>
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string"/>
+              <xsd:attribute name="type" type="xsd:string"/>
+              <xsd:attribute name="mimetype" type="xsd:string"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string"/>
+              <xsd:attribute name="name" type="xsd:string"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1"/>
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"/>
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required"/>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <!-- General -->
+	<data name="ChangeLanguage" xml:space="preserve">
+      <value>Cambiar Idioma</value>
+    </data>
+	<data name="CurrLanguage" xml:space="preserve">
+      <value>El idioma actual es el español.</value>
+    </data>
+	<data name="English" xml:space="preserve">
+      <value>Ingles</value>
+    </data>
+	<data name="Spanish" xml:space="preserve">
+      <value>Español</value>
+    </data>
+	<data name="Save" xml:space="preserve">
+      <value>Guardar</value>
+    </data>
+	<data name="AppDescription" xml:space="preserve">
+      <value>Esta es una aplicación para la NASA.</value>
+    </data>
+	<data name="Version" xml:space="preserve">
+      <value>Versión de la aplicación: {0}</value>
+    </data>
+	<data name="LoginText" xml:space="preserve">
+        <value>Ingresar aquí</value>
+    </data>
+	<data name="UserNameString" xml:space="preserve">
+        <value>Nombre</value>
+    </data>
+	<data name="PasswordString" xml:space="preserve">
+        <value>Clave</value>
+    </data>
+	<data name="PaperworkTitle" xml:space="preserve">
+        <value>Declaración de la Ley de Reducción de Trámites</value>
+    </data>
+	<data name="PaperworkBody" xml:space="preserve">
+        <value>Esta recopilación de información cumple con los requisitos de 44 U.S.C 3507, modificado por la sección 2 de la Ley de Reducción de Trámites de 1995. No es necesario que responda estas preguntas a menos que mostremos un número válido de la Oficina de Administración y Control Presupuestario. El número de control de la OMB para esta recopilación de información es 2700-0191 y vence el 30/09/2025. Calculamos que le tomará menos de 10 minutos leer las instrucciones, reunir los datos y responder las preguntas. Puede enviar comentarios sobre nuestra estimación de tiempo anterior a larc-nasacommunitysurvey@mail.nasa.gov. Envíe solo comentarios relacionados con nuestra estimación de tiempo a esta dirección.        </value>
+    </data>
+	<data name="StatementBody" xml:space="preserve">
+        <value>Usted está ingresando a un sistema de información del gobierno de Estados Unidos. El uso del sistema puede ser monitoreado, grabado y sujeto a auditoría. El uso no autorizado del sistema está prohibido y sujeto a sanciones penales y civiles. El uso del sistema indica el consentimiento para el seguimiento y la grabación.
+        </value>
+    </data>
+	<data name="UserNamePlaceholder" xml:space="preserve">
+        <value>sunombre@email.com</value>
+    </data>
+	<data name="PasswordPlaceholder" xml:space="preserve">
+        <value>contraseña</value>
+    </data>
+	<data name="LoginButtonText" xml:space="preserve">
+        <value>INGRESAR</value>
+    </data>
+	<data name="Authenticating" xml:space="preserve">
+        <value>Autenticando...</value>
+    </data>
+	<!-- Flyout Menu -->
+	<data name="About" xml:space="preserve">
+        <value>Acerca de</value>
+    </data>
+	<data name="FAQ" xml:space="preserve">
+        <value>Preguntas frecuentes</value>
+    </data>
+	<data name="Resources" xml:space="preserve">
+        <value>Recursos</value>
+    </data>
+	<data name="IncentivesMenuItem" xml:space="preserve">
+        <value>Incentivos</value>
+    </data>
+	<data name="Incentivesview" xml:space="preserve">
+        <value>Ver incentivos</value>
+    </data>
+	<data name="Settings" xml:space="preserve">
+        <value>Configuraciones</value>
+    </data>
+	<data name="ContactMenuItem" xml:space="preserve">
+        <value>Contacto</value>
+    </data>
+	<data name="SignOutString" xml:space="preserve">
+        <value>Desconectar</value>
+    </data>
+	<!-- Survey List Page -->
+	<data name="LoadingSurveys" xml:space="preserve">
+        <value>Cargando Encuestas...</value>
+    </data>
+	<data name="BeginSurvey" xml:space="preserve">
+        <value>Encuestas</value>
+    </data>
+	<data name="BeginCurrSurvey" xml:space="preserve">
+        <value>Comenzar Encuesta</value>
+    </data>
+	<data name="Contact" xml:space="preserve">
+        <value>Contacto</value>
+    </data>
+	<data name="SurveyList" xml:space="preserve">
+        <value>Lista de encuestas</value>
+    </data>
+	<data name="SingleEventSurvey" xml:space="preserve">
+        <value>Encuesta de evento único</value>
+    </data>
+	<data name="EndofDaySurvey" xml:space="preserve">
+        <value>Encuesta al final del día</value>
+    </data>
+	<data name="UncompletedSurveys" xml:space="preserve">
+        <value>Encuestas incompletas</value>
+    </data>
+	<data name="NoUncompletedSurveys" xml:space="preserve">
+        <value>Todas las encuestas se han completado para el día.</value>
+    </data>
+	<data name="ThankYouLine" xml:space="preserve">
+        <value>Gracias por su participación.</value>
+    </data>
+	<data name="HasNoSurveys" xml:space="preserve">
+        <value>En este momento no hay encuestas disponibles, pero esté atento a notificaciones, mensajes de texto o correos electrónicos anunciando la disponibilidad de nuevas encuestas.</value>
+    </data>
+	<data name="Today" xml:space="preserve">
+        <value>Hoy</value>
+    </data>
+	<!-- Messages -->
+	<data name="LoginActivityIndicator" xml:space="preserve">
+        <value>Intentando iniciar sesión.</value>
+    </data>
+	<data name="AccountLocked" xml:space="preserve">
+        <value>Su cuenta ha sido bloqueada.</value>
+    </data>
+	<data name="AccountDisabled" xml:space="preserve">
+        <value>Tu cuenta está desactivada.</value>
+    </data>
+	<data name="EnterCreds" xml:space="preserve">
+        <value>Por favor ingrese nombre de usuario y contraseña.</value>
+    </data>
+	<data name="IncorrectCreds" xml:space="preserve">
+        <value>Ingrese nombre de usuario y contraseña.</value>
+    </data>
+	<data name="ErrorHeader" xml:space="preserve">
+        <value>Error</value>
+    </data>
+	<!-- Other -->
+	<data name="PushDatatoServer" xml:space="preserve">
+        <value>Enviar datos al servidor</value>
+    </data>
+	<data name="Sign Out" xml:space="preserve">
+        <value>Salir</value>
+    </data>
+	<!-- Days of the Week -->
+	<data name="SundayDOW" xml:space="preserve">
+        <value>dom.</value>
+    </data>
+	<data name="MondayDOW" xml:space="preserve">
+        <value>lun.</value>
+    </data>
+	<data name="TuesdayDOW" xml:space="preserve">
+        <value>mar.</value>
+    </data>
+	<data name="WednesdayDOW" xml:space="preserve">
+        <value>miér.</value>
+    </data>
+	<data name="ThursdayDOW" xml:space="preserve">
+        <value>juev.</value>
+    </data>
+	<data name="FridayDOW" xml:space="preserve">
+        <value>vier.</value>
+    </data>
+	<data name="SaturdayDOW" xml:space="preserve">
+        <value>sáb.</value>
+    </data>
+	<data name="JanString" xml:space="preserve">
+        <value>en.</value>
+    </data>
+	<data name="FebString" xml:space="preserve">
+        <value>feb.</value>
+    </data>
+	<data name="MarString" xml:space="preserve">
+        <value>mar.</value>
+    </data>
+	<data name="AprString" xml:space="preserve">
+        <value>abr.</value>
+    </data>
+	<data name="MayString" xml:space="preserve">
+        <value>may.</value>
+    </data>
+	<data name="JunString" xml:space="preserve">
+        <value>jun.</value>
+    </data>
+	<data name="JulString" xml:space="preserve">
+        <value>jul.</value>
+    </data>
+	<data name="AugString" xml:space="preserve">
+        <value>agto.</value>
+    </data>
+	<data name="SeptString" xml:space="preserve">
+        <value>sept.</value>
+    </data>
+	<data name="OctString" xml:space="preserve">
+        <value>oct.</value>
+    </data>
+	<data name="NovString" xml:space="preserve">
+        <value>nov.</value>
+    </data>
+	<data name="DecString" xml:space="preserve">
+        <value>dic.</value>
+    </data>
+	<!-- Survey Instruments -->
+	<data name="SaveUntilLaterString" xml:space="preserve">
+        <value>Guardar y continuar después</value>
+    </data>
+	<data name="BackString" xml:space="preserve">
+        <value>Atrás</value>
+    </data>
+	<data name="NextString" xml:space="preserve">
+        <value>Siguiente</value>
+    </data>
+	<data name="SubmitString" xml:space="preserve">
+        <value>Enviar</value>
+    </data>
+	<!-- Rewards -->
+	<data name="RewardsLine1" xml:space="preserve">
+        <value>Incentivos que ha ganado hasta la fecha</value>
+    </data>
+	<data name="RewardsLine2" xml:space="preserve">
+        <value>Última actualización </value>
+    </data>
+	<data name="Rewards" xml:space="preserve">
+        <value>As of Incentive.DistribDay,</value>
+    </data>
+	<data name="HasBeenLoadedDebitCard" xml:space="preserve">
+        <value>ha sido cargado a su tarjeta de débito.</value>
+    </data>
+	<data name="HasBeenLoaded" xml:space="preserve">
+        <value>se ha cargado a</value>
+    </data>
+	<data name="DebitCard" xml:space="preserve">
+        <value>tu tarjeta de débito.</value>
+    </data>
+	<data name="TotalUpdated" xml:space="preserve">
+        <value>Total actualizado semanalmente</value>
+    </data>
+	<!-- SURVEY COMPLETE ALERT MESSAGE -->
+	<data name="SurveyCompletionAlert" xml:space="preserve">
+        <value>Gracias por completar esta encuesta.</value>
+    </data>
+	<data name="AlertOk" xml:space="preserve">
+        <value>OK</value>
+    </data>
+	<!-- Map Control -->
+	<data name="ConfirmLocation" xml:space="preserve">
+        <value>Confirmar ubicación</value>
+    </data>
+	<data name="ConfirmLocationInMap" xml:space="preserve">
+        <value>Confirmar ubicación en el mapa</value>
+    </data>
+	<data name="SearchBarPlaceholder" xml:space="preserve">
+        <value>Buscar un lugar...</value>
+    </data>
+	<data name="SelectYourLocation" xml:space="preserve">
+        <value>Seleccione su ubicación cuando escuchó ruido de la aeronave.</value>
+    </data>
+	<data name="CommunitySurvey" xml:space="preserve">
+        <value>Encuesta Comunitaria</value>
+    </data>
+	<data name="CommunityString" xml:space="preserve">
+        <value>Encuesta</value>
+    </data>
+	<data name="SurveyString" xml:space="preserve">
+        <value>Comunitaria</value>
+    </data>
+</root>
