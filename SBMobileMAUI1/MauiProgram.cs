@@ -15,6 +15,7 @@ public static class MauiProgram
 		//  SERILOG
 		SetupSerilog();
 
+		//  BUILDER
 		builder
 			.UseMauiApp<App>()
 			.RegisterAppServices()
@@ -28,6 +29,11 @@ public static class MauiProgram
 			{
 				fonts.AddFont("OpenSans-Regular.ttf", "OpenSansRegular");
 				fonts.AddFont("OpenSans-Semibold.ttf", "OpenSansSemibold");
+				fonts.AddFont("FaRegular.ttf", "FaRegular");
+			})
+			.ConfigureEssentials(essentials =>
+			{
+				essentials.UseVersionTracking(); // GET APP BUILD and VERSION
 			});
 
 #if DEBUG
